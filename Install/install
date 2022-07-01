@@ -24,7 +24,7 @@ echo -e " \033[1;32m➤ รอสักครู่... \033[0m"
 echo -e " \033[1;32m➤ กำลังติดตั้งVnstat \033[0m"
 apt-get install -qy vnstat > /dev/null 2>&1
 chown -R vnstat:vnstat /var/lib/vnstat
-cd /home/vps/public_html
+cd /home
 wget -q http://www.sqweek.com/sqweek/files/vnstat_php_frontend-1.5.1.tar.gz
 tar xf vnstat_php_frontend-1.5.1.tar.gz
 rm vnstat_php_frontend-1.5.1.tar.gz
@@ -56,4 +56,4 @@ curl -X POST -H 'Authorization: โค๊คapi line' -F 'message='"
 Load_file  $IP/KGUZA.ovpn "'' https://notify-api.line.me/api/notify > /dev/null 2>&1
 
 echo -e " \033[1;35m➤ กำลังไปหน้าโหลดหลัก \033[0m" 
-wget https://raw.githubusercontent.com/LiLGun-X/Hyper-X-SCRIPT/main/HXS -q > /dev/null 2>&1  && chmod +x HXS && ./HXS  
+wget https://raw.githubusercontent.com/LiLGun-X/Hyper-X-SCRIPT/main/SXV -q > /dev/null 2>&1  && chmod +x SXV && ./SXV  
