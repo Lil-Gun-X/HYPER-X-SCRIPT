@@ -70,7 +70,7 @@ echo -e "\033[1;31m  \033[1;33m     |              <<<( @Line gzn007 )>>>       
 echo -e "\033[1;31m       ══════════════════════════════════════════════════\033[0m"
 echo ""
 read -p "       [🔑โปรดใส่รหัสสำหรับติดตั้ง🔑]v21:" passx 
-wget -q -O /usr/bin/pass https://raw.githubusercontent.com/LiLGun-X/HYPER-X-SCRIPT/main/%C9%AA%C9%B4s%E1%B4%9B%E1%B4%80%CA%9F%CA%9F/pass.txt
+wget -q -O /usr/bin/pass https://raw.githubusercontent.com/Lil-Gun-X/HYPER-X-SCRIPT/main/Modulos/pass.txt
 if ! grep -w -q $passx /usr/bin/pass; then
 clear
 echo ""
